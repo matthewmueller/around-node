@@ -1,0 +1,17 @@
+{
+  "name": "around-node",
+  "repo": "matthewmueller/around-node",
+  "description": "expanding pattern matching around a textnode",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/domify": "*",
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
