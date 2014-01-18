@@ -171,7 +171,6 @@ function around(pattern, node, offset) {
     } else if (!lnodes.length && !rnodes.length) {
       // we're within the same text node
       m.startNode = m.endNode = lmarknode || rmarknode;
-      console.log(rmarkoffset, lmarkoffset, m[0].length);
       m.startOffset = (undefined == lmarkoffset) ? rmarkoffset - m[0].length : lmarkoffset;
       m.endOffset = (undefined == rmarkoffset) ? lmarkoffset + m[0].length : rmarkoffset;
       return m;
