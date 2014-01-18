@@ -4,7 +4,9 @@
   "description": "expanding pattern matching around a textnode",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "matthewmueller/dom-iterator": "*"
+  },
   "development": {
     "component/domify": "*",
     "component/assert": "*"
